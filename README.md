@@ -9,6 +9,7 @@ Users will have access to a personal profile that holds personal information and
 The end product will be a 3 tire application with passed tests that consolidate all functionality.
 
 # Database ERD
+erd:
 
 # Sprint Breakdown
 ## Sprint 1
