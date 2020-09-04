@@ -22,7 +22,7 @@ One of the blockers for this sprint was forgetting to re-scaffold my database wh
 
 ## Sprint 2
 ### Sprint Goals
-The goal for this sprint was to complete the creation of my methods and create tests to asert their functionality
+The goal for this sprint was to complete the creation of my methods and create tests to assert their functionality
 ### Sprint Review
 Completing the creation of my methods was a success. While this was happening I was manually testing their functionality to check they did what was intended. I was able to complete the test for the method's CRUD functionality, however all my test did not pass as intended
 ### Sprint Retrospective
