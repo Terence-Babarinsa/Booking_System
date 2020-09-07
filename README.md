@@ -36,3 +36,10 @@ I have created all my pages for my UI. The time allowed for this sprint was adeq
 ### Sprint Retrospective
 The main blocker for this sprint is getting teh navigation between the pages. This navigation can be performed if i set my pages as windows, however the user experience will be negatively affected due to changing form size as they navigate around the system. For the sake of uniformity, it will serve best to have my pages appear within the same frame.
 
+## Sprint 4
+### Sprint Goals
+The goal for this sprint was to continue with connecting my basic UI to the code behind and manually tests its functionality 
+### Sprint Review
+This sprint was succes as it saw me complete my project MVP. I was able to complete the the basic design of my UI, connect it to the my business layer and manually test it.
+### Sprint Retrospective
+The was alot of difficulty with displaying my pages on my window. This was cause problem due to the typ eof window i designed. A navigation window is what was required to change the content of the main window. This, in conjunction with a naviagtion service saw me overcome this blocker. Another issue during this sprint was the buttons that represented the seats on my system. I tried to access their content by stepping through the controls on my page that were of type buttons, however this type of loop was unique to forms and not pages. To overcome this blcoker I had to hard code all my buttons into a list of type buttons in order to still access theu methods when i was looping through the list.
