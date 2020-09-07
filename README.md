@@ -37,7 +37,7 @@ I have created all my pages for my UI. The time allowed for this sprint was adeq
 The main blocker for this sprint is getting teh navigation between the pages. This navigation can be performed if i set my pages as windows, however the user experience will be negatively affected due to changing form size as they navigate around the system. For the sake of uniformity, it will serve best to have my pages appear within the same frame.
 
 ## Sprint 4
-### Sprint Goals
+#### Sprint Goals
 The goal for this sprint was to continue with connecting my basic UI to the code behind and manually tests its functionality 
 ### Sprint Review
 This sprint was succes as it saw me complete my project MVP. I was able to complete the the basic design of my UI, connect it to the my business layer and manually test it.
