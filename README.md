@@ -27,3 +27,12 @@ The goal for this sprint was to complete the creation of my methods and create t
 Completing the creation of my methods was a success. While this was happening I was manually testing their functionality to check they did what was intended. I was able to complete the test for the method's CRUD functionality, however all my test did not pass as intended
 ### Sprint Retrospective
 One of the main blockers for this sprint was creating my tests. Interacting with with the database from the n-unit proved challenging at first in terms of getting to grips with the TestCase and TearDowns, however once this slight hurdle was conquered tests were relatively simpler to write in terms of understanidng the flow of data from the test framework, to methods and into the database. The main blocker has been a particularly tricky test taht hasn't passed. This test will be moved in to sprint 3 for completion before development of the UI.
+
+## Sprint 3
+### Sprint Goals
+The goal for this sprint was to connect my basic UI to the code behind and manually tests its functionality 
+### Sprint Review
+I have created all my pages for my UI. The time allowed for this sprint was adequate. The time needed to created the seating form adn code and create each individual button taook much longer than anticipted. There has been issues trying to noviage between my pages. This issue willl have to be moved into sprint 4 as I am still to find a viable work around.
+### Sprint Retrospective
+The main blocker for this sprint is getting teh navigation between the pages. This navigation can be performed if i set my pages as windows, however the user experience will be negatively affected due to changing form size as they navigate around the system. For the sake of uniformity, it will serve best to have my pages appear within the same frame.
+
