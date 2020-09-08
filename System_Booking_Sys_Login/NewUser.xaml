@@ -1,0 +1,136 @@
+﻿<Page x:Class="System_Booking_Sys_GUI.NewUser"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:System_Booking_Sys_GUI"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="NewUser">
+
+    <Grid>
+        <Grid.Background>
+            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                <GradientStop Color="#FF940000"/>
+                <GradientStop Color="#FF3D2A2A" Offset="1"/>
+            </LinearGradientBrush>
+        </Grid.Background>
+        <Label x:Name="lblName" Content="Name" HorizontalAlignment="Left" Height="28" Margin="43,76,0,0" VerticalAlignment="Top" Width="53" Foreground="White"/>
+        <Button x:Name="btnBack" Content="Back" HorizontalAlignment="Left" Height="30" Margin="10,10,0,0" VerticalAlignment="Top" Width="100" Click="btnBack_Click" Foreground="White">
+            <Button.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Black"/>
+                    <GradientStop Color="#FFBA0000" Offset="1"/>
+                </LinearGradientBrush>
+            </Button.Background>
+        </Button>
+        <Label x:Name="lblPhone" Content="Mobile Number" HorizontalAlignment="Left" Height="28" Margin="43,240,0,0" VerticalAlignment="Top" Width="107" Foreground="White"/>
+        <Label x:Name="lblCity" Content="City" HorizontalAlignment="Left" Height="28" Margin="43,207,0,0" VerticalAlignment="Top" Width="107" Foreground="White"/>
+        <Label x:Name="lblPostcode" Content="Postcode" HorizontalAlignment="Left" Height="28" Margin="43,175,0,0" VerticalAlignment="Top" Width="107" Foreground="White"/>
+        <Label x:Name="lblAddress" Content="Address" HorizontalAlignment="Left" Height="28" Margin="43,142,0,0" VerticalAlignment="Top" Width="107" Foreground="White"/>
+        <Label x:Name="lblBirthDate" Content="Date of Birth" HorizontalAlignment="Left" Height="28" Margin="43,109,0,0" VerticalAlignment="Top" Width="107" Foreground="White"/>
+        <Label x:Name="lblUsername" Content="Username" HorizontalAlignment="Left" Height="28" Margin="43,299,0,0" VerticalAlignment="Top" Width="107" Foreground="White"/>
+        <Label x:Name="lblPassword" Content="Password" HorizontalAlignment="Left" Height="28" Margin="43,332,0,0" VerticalAlignment="Top" Width="107" Foreground="White"/>
+        <TextBox x:Name="txtFirstName" HorizontalAlignment="Left" Height="28" Margin="206,76,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="200" Foreground="White">
+            <TextBox.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Black"/>
+                    <GradientStop Color="#FF6E2626" Offset="1"/>
+                </LinearGradientBrush>
+            </TextBox.Background>
+        </TextBox>
+        <TextBox x:Name="txtLastName" HorizontalAlignment="Left" Height="28" Margin="522,76,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="200" Foreground="White">
+            <TextBox.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Black"/>
+                    <GradientStop Color="#FF6E2626" Offset="1"/>
+                </LinearGradientBrush>
+            </TextBox.Background>
+        </TextBox>
+        <Label x:Name="lblFirstName" Content="First name" HorizontalAlignment="Left" Height="28" Margin="206,48,0,0" VerticalAlignment="Top" Width="72" Foreground="White"/>
+        <Label x:Name="lblLastName" Content="Last name" HorizontalAlignment="Left" Height="28" Margin="522,48,0,0" VerticalAlignment="Top" Width="63" Foreground="White"/>
+        <TextBox x:Name="txtDOB" HorizontalAlignment="Left" Height="28" Margin="206,109,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="72" Text="__/__/____" Foreground="White">
+            <TextBox.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Black"/>
+                    <GradientStop Color="#FF863737" Offset="1"/>
+                </LinearGradientBrush>
+            </TextBox.Background>
+        </TextBox>
+        <TextBox x:Name="txtPassword" HorizontalAlignment="Left" Height="28" Margin="206,332,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="200" Foreground="White">
+            <TextBox.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Black"/>
+                    <GradientStop Color="#FF6E2626" Offset="1"/>
+                </LinearGradientBrush>
+            </TextBox.Background>
+        </TextBox>
+        <TextBox x:Name="txtUserName" HorizontalAlignment="Left" Height="28" Margin="206,299,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="200" Foreground="White">
+            <TextBox.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Black"/>
+                    <GradientStop Color="#FF6E2626" Offset="1"/>
+                </LinearGradientBrush>
+            </TextBox.Background>
+        </TextBox>
+        <TextBox x:Name="txtMobile" HorizontalAlignment="Left" Height="28" Margin="206,240,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="200" Foreground="White">
+            <TextBox.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Black"/>
+                    <GradientStop Color="#FF6E2626" Offset="1"/>
+                </LinearGradientBrush>
+            </TextBox.Background>
+        </TextBox>
+        <TextBox x:Name="txtCity" HorizontalAlignment="Left" Height="28" Margin="206,207,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="200" Foreground="White">
+            <TextBox.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Black"/>
+                    <GradientStop Color="#FF6E2626" Offset="1"/>
+                </LinearGradientBrush>
+            </TextBox.Background>
+        </TextBox>
+        <TextBox x:Name="txtPostcode" HorizontalAlignment="Left" Height="28" Margin="206,175,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="200" Foreground="White">
+            <TextBox.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Black"/>
+                    <GradientStop Color="#FF6E2626" Offset="1"/>
+                </LinearGradientBrush>
+            </TextBox.Background>
+        </TextBox>
+        <TextBox x:Name="txtAddress" HorizontalAlignment="Left" Height="28" Margin="206,142,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="200" Foreground="White">
+            <TextBox.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Black"/>
+                    <GradientStop Color="#FF6E2626" Offset="1"/>
+                </LinearGradientBrush>
+            </TextBox.Background>
+        </TextBox>
+        <Label x:Name="lblFNMark" Content="*" HorizontalAlignment="Left" Height="28" Margin="406,76,0,0" VerticalAlignment="Top" Width="31" FontWeight="Bold" Background="White" FontStyle="Normal" Foreground="#FFF30000" Visibility="Hidden"/>
+        <Label x:Name="lblMMark" Content="*" HorizontalAlignment="Left" Height="28" Margin="406,240,0,0" VerticalAlignment="Top" Width="31" FontWeight="Bold" Foreground="Red" Visibility="Hidden"/>
+        <Label x:Name="lblCMark" Content="*" HorizontalAlignment="Left" Height="28" Margin="406,207,0,0" VerticalAlignment="Top" Width="31" FontWeight="Bold" Background="White" Foreground="Red" Visibility="Hidden"/>
+        <Label x:Name="lblPMark" Content="*" HorizontalAlignment="Left" Height="28" Margin="406,174,0,0" VerticalAlignment="Top" Width="31" FontWeight="Bold" Foreground="#FFFC0000" Visibility="Hidden"/>
+        <Label x:Name="lblAMark" Content="*" HorizontalAlignment="Left" Height="28" Margin="406,142,0,0" VerticalAlignment="Top" Width="31" FontWeight="Bold" Foreground="#FFF10000" Visibility="Hidden"/>
+        <Label x:Name="lblDOBMark" Content="*" HorizontalAlignment="Left" Height="28" Margin="406,109,0,0" VerticalAlignment="Top" Width="31" FontWeight="Bold" Foreground="Red" Visibility="Hidden"/>
+        <Label x:Name="lblLNMArk" Content="*" HorizontalAlignment="Left" Height="28" Margin="722,76,0,0" VerticalAlignment="Top" Width="31" FontWeight="Bold" Foreground="Red" Visibility="Hidden"/>
+        <Label x:Name="lblPWMark" Content="*" HorizontalAlignment="Left" Height="28" Margin="406,332,0,0" VerticalAlignment="Top" Width="31" FontWeight="Bold" Foreground="Red" Visibility="Hidden"/>
+        <Label x:Name="lblUMark" Content="*" HorizontalAlignment="Left" Height="28" Margin="406,299,0,0" VerticalAlignment="Top" Width="31" FontWeight="Bold" Foreground="Red" Visibility="Hidden"/>
+        <Button x:Name="btnCreateNewUser" Content="Create" HorizontalAlignment="Left" Height="36" Margin="522,254,0,0" VerticalAlignment="Top" Width="200" Click="btnCreateNewUser_Click" Foreground="White">
+            <Button.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Black"/>
+                    <GradientStop Color="#FFBA0000" Offset="1"/>
+                </LinearGradientBrush>
+            </Button.Background>
+        </Button>
+        <Label x:Name="lblNewUser" Content="New User Details" HorizontalAlignment="Left" Height="28" Margin="309,10,0,0" VerticalAlignment="Top" Width="128" FontWeight="Bold" FontSize="14" Foreground="White"/>
+        <Button x:Name="btnDelete" Content="Delete Profile" HorizontalAlignment="Left" Height="33" Margin="522,313,0,0" VerticalAlignment="Top" Width="200" Click="Button_Click" Foreground="White" Visibility="Hidden">
+            <Button.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Black"/>
+                    <GradientStop Color="#FFBA0000" Offset="1"/>
+                </LinearGradientBrush>
+            </Button.Background>
+        </Button>
+
+    </Grid>
+</Page>
