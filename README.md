@@ -9,7 +9,7 @@ Users will have access to a personal profile that holds personal information and
 The end product will be a 3 tire application with passed tests that consolidate all functionality.
 
 # Database ERD
-erd:
+<img src="https://github.com/Terence-Babarinsa/Booking_System/blob/master/Images/Annotation%202020-09-08%20110939.png" />
 
 # Sprint Breakdown
 ## Sprint 1
